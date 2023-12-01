@@ -21,6 +21,7 @@ public class HomeSteps extends PageSteps {
             case "+": HomeService.clickAgregarTiempo();
             break;
             case "fecha": HomeService.clickFecha();
+            break;
         }
     }
 
@@ -63,5 +64,10 @@ public class HomeSteps extends PageSteps {
     @And("el usuario cierra la sesion")
     public void elUsuarioCierraLaSesion() {
         HomeService.cerrarSesion();
+    }
+
+    @And("Se agrega una fecha")
+    public void seAgregaLaFechaDeseadaCon() {
+        HomeService.agregarFecha();
     }
 }

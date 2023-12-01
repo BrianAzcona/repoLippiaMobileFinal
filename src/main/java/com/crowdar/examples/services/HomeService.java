@@ -27,6 +27,7 @@ public class HomeService {
     }
     public static void clickGuardarFecha(){
         MobileActionManager.click(HomeConstants.BOTON_GUARDAR_FECHA_LOCATOR);
+        MobileActionManager.click(HomeConstants.BOTON_GUARDAR_TIEMPO_LOCATOR);
     }
     public static void descartarHoras(){
         MobileActionManager.click(HomeConstants.BOTON_ATRAS_LOCATOR);
@@ -44,5 +45,11 @@ public class HomeService {
         MobileActionManager.click(HomeConstants.BOTON_MENU_LOCATOR);
         MobileActionManager.click(HomeConstants.BOTON_CERRAR_SESION_LOCATOR);
         MobileActionManager.click(HomeConstants.BOTON_CONFIRMAR_CERRAR_SESION_LOCATOR);
+    }
+    public static void agregarFecha(){
+        MobileActionManager.waitPresence(HomeConstants.BOTON_SIGUIENTE_MES_LOCATOR);
+        MobileActionManager.click(HomeConstants.BOTON_SIGUIENTE_MES_LOCATOR);
+        MobileActionManager.click(HomeConstants.BOTON_DIA_SELECIONADO_LOCATOR);
+
     }
 }

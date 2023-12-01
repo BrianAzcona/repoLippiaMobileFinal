@@ -19,6 +19,9 @@ public class HomeConstants {
     public static final String BOTON_MODO_OSCURO_LOCATOR = "xpath://android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.Switch";
     public static final String BOTON_CERRAR_SESION_LOCATOR = "xpath://androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[7]/android.widget.CheckedTextView";
     public static final String BOTON_CONFIRMAR_CERRAR_SESION_LOCATOR = "xpath://android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[2]";
+    public static final String BOTON_CALENDARIO_LOCATOR = "xpath://android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView[3]";
+    public static final String BOTON_SIGUIENTE_MES_LOCATOR = "xpath://android.widget.ImageButton[@content-desc=\"Mes siguiente\"]";
+    public static final String BOTON_DIA_SELECIONADO_LOCATOR = "xpath://android.view.View[@content-desc=\"06 diciembre 2023\"]";
 
 
 
